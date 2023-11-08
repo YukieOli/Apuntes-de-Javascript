@@ -51,6 +51,52 @@ const comidafavorita = 'pizza';
 ### Se pueden crear variables con identificadores que contengan más de una palabra, usando dos diferentes formas, la *snake-case* y la *camel-case* por ejemplo:
 
 ```javascript
-var nombre_de_la_mama
-var nombreDelPapa
+var nombre_de_la_mama;
+var nombreDelPapa;
+var NombreDelHermano; // Pascal-case no es muy usada en variables, es más para crear clases.
 ```
+# Tipos de datos
+
+Boolean
+string
+number
+null
+undefined
+
+### booleano
+Los booleanos tienes solo dos respuestas posibles "true" O "false"
+
+### Strings
+Cadena de texto, es toda respuesta formada por palabras y se crean con ("") o ('') 
+ejemplo:
+"felipe", "Andrés dijo: ' Hola a todos' "
+
+### Number
+Sin importar que un numero sea entero, flotante, decimal,negativo, etc, para javascript es un numero
+5, 5,67, 3.1416, e, infinity,etc.
+
+### undefined
+(indefinido) si creamos variables sin valor asignado, el valor que toma por defecto es undefined
+el **not defined** es un error de referencia, no es un tipo de dato, esto pasa cuando se quiera llamar una variable que no existe.
+
+### null
+(vacio) cuando declaramos una variable como null es por que no tiene ningun valor, hasta que se le asigna un valor especifico
+
+### NaN
+(not a number) cuando tratamos de hacer operaciones que no tienen sentido como un  5 + "hola", el 5 se transforma (castea) en string, pero solo funciona 
+con sumas, cuando se trata de hacer una operación de resta entre datos distintos te marcará un **NaN**
+
+//! Investigar el tema de la concatenación
+
+Haciendo nuestro primer **Hola Mundo**
+en javascript para imprimir por consola, usamos console.log() 
+'''
+console.log("hola mundo")
+'''
+en las extenciones de VSC buscamos "Code Runner" este permite compilar códigos de varios lenguajes de programación.
+
+//Compilar significa que lo pone en marcha, lo ejecuta.
+
+# Operadores aritmeticos
+
+
