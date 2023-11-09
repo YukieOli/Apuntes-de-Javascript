@@ -165,6 +165,8 @@ termina devolviendo un producto final.
 para crear una función se utiliza la palabra "function"
 
 '''javascript
+
+
 function saludar(nombre){
   nombre = nombre + " , como estas?"
   return nombre
@@ -173,6 +175,7 @@ function saludar(nombre){
 var resultado = saludar("Felipe")
 
 console.log(resultado)
+
 '''
 
 
