@@ -97,6 +97,45 @@ en las extenciones de VSC buscamos "Code Runner" este permite compilar códigos 
 
 //Compilar significa que lo pone en marcha, lo ejecuta.
 
-# Operadores aritmeticos
+# Operadores aritméticos
+Son simbolos que le indican al intérprete de JS las operaciones que debe realizar 
 
+2+3 = 5
+3/3 = 1
+2*2 = 4
+7-4 = 3
+2 ** 3 = 8 (potenciación)
 
+'''javascript
+//? operadores
+//! Aritméticos --- + - * / %(módulo) ** ()
+16 / 4 → 4
+16 % 4 → 0
+16 | 4
+ 0   4
+
+Math.pow(2,3)
+2 ** 3
+'''
+
+# Precedencia de operadores y asociatividad
+es básicamente el orden en que se van a llamar las funciones de los operadores. Así si tenemos más de un operador,
+el interprete va a llamar al de mayor precedencia primero y después a los demas.
+
+La **Asociatividad de operadores** es el orden en el que se ejecutan los operadores cuando tienen la misma prececedencia, es decir, de izquierda a derecha o viceversa.
+//! revisar la documentación de javascript
+
+# Operadores de comparación
+
+* == ( igual a...)
+* != ( diferente a...)
+* === ( igual a... compara también el tipo de dato )
+* !== (diferente a... compara también el tipo de dato )
+* >= ( mayor o igual que... )
+* <= ( menor o igual que...)
+* > ( mayor (estricto) que...)
+* < ( menor (estricto) que...)
+
+// Igualdad o difertencia de valor y tipo de dato
+
+# Operadores lógicos NOT(!), AND(&&), OR(||)
