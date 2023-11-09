@@ -1,4 +1,4 @@
-# Javascript básico 1
+# Javascript básico 1 Clase 1
 
 ## Objetivos de la clase 🎯
 
@@ -138,4 +138,48 @@ La **Asociatividad de operadores** es el orden en el que se ejecutan los operado
 
 // Igualdad o difertencia de valor y tipo de dato
 
-# Operadores lógicos NOT(!), AND(&&), OR(||)
+# Operadores lógicos NOT(!), AND(&&), OR(||) 
+
+**AND** solo es verdadero si ambas son verdaderas
+**OR** solo es falso si ambas sentencias son falsas
+**NOT** la negación
+
+'''javascript
+
+var sentencia1 = "Esamos en clase"
+var sentencia2 = "Estamos aprendiendo javascript"
+var sentencia3 = "Estamos en cuarentena"
+
+sentencia1 && sentencia2 // True
+sentencia1 && sentencia3 // False
+sentencia1 || sentencia2 // aunque solo una sea verdadera ya el resultado es verdadero // False
+!sentencia4 // false
+'''
+
+# Funciones
+
+Una finción es una maquinita, como la maquina, una función necesita componentes para trabajar, 
+la maquina necesita recibir algo para poder transformarlo y una vez que comienza a funcionar
+termina devolviendo un producto final.
+
+para crear una función se utiliza la palabra "function"
+
+'''javascript
+function saludar(nombre){
+  nombre = nombre + " , como estas?"
+  return nombre
+
+
+var resultado = saludar("Felipe")
+
+console.log(resultado)
+'''
+
+
+//! consultar los temas que faltan y resolver los 5 primeros ejercicios
+
+
+
+
+
+
